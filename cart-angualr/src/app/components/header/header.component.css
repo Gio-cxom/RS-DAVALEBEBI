@@ -1,0 +1,41 @@
+header{
+    width: 100%;
+}
+span{
+    border-radius: 50%;
+    background-color: red;
+}
+.main-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: aqua;
+}
+.logo-div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-div img{
+    width: 50px;
+}
+.search-div{
+    position: relative;
+}
+.search-div input{
+    height: 30px;
+    width: 300px;
+}
+.search-div img{
+    border-radius: 50%;
+    width: 27px;
+    top: 5px;
+    right: 5px;
+    position: absolute;
+}
+.search-div img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}

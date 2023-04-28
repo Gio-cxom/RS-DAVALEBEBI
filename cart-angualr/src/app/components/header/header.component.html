@@ -1,0 +1,15 @@
+<header>
+    <div class="main-div">
+        <div class="logo-div">
+            <img src="../../../assets/images/logo.png" alt="">
+            <div class="search-div">
+                <input type="text" [(ngModel)]="searchTerm"(keyup)="search($event)" placeholder="search">
+                <img src="../../../assets/images/search.png" alt="" srcset="">
+            </div>
+        </div>
+        <button routerLink="cart">
+            CART
+            <span>{{totalItem}}</span>
+        </button>
+    </div>
+</header>

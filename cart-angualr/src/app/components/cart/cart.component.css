@@ -1,0 +1,90 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cart{
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+    width: 1000px;
+    height: 500px;
+    border: 1px solid grey;
+    position: relative;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.center button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(158, 158, 0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.center img{
+    width: 150px;
+}
+.center button:hover{
+    transform: scale(1.05);
+}
+.bin{
+    background-color: red;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.bin:hover{
+    transform: scale(1.05);
+}
+.table{
+    padding: 50px;
+    width: 100%;
+}
+.table img{
+    width: 100px;
+    margin: 20px 20px;
+}
+.btn-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 500px;
+    width: 100%;
+}
+.btn-last button{
+    margin: 0px 30px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+.btn-last button:hover{
+    transform: scale(1.05);
+}
+.btn-last p{
+    font-size: 25px;
+    color: rgb(0, 215, 4);
+}
+.btn-last span{
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.emptycart{
+    background-color: red;
+}
+.shopmore{
+    background-color: rgb(0, 255, 110);
+}
